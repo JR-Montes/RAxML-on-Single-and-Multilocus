@@ -93,7 +93,7 @@ nohup raxmlHPC -m GTRGAMMA -p 12345 -q Australes_n339_partitions.txt -s Australe
 
 nohup raxmlHPC -f a -x 12345 -p12345 -# 300 -m GTRGAMMA -q Australes_n339_partitions.txt -s Australes_n339.phy -n test.part.bs300 &
 
-nohup raxmlHPC -f a -x 12345 -p12345 -# 300 -m GTRGAMMA -q Plastid_partitions_Gblocks.txt -s aaAustrales_GBlocks_mask_11jan2018.phy -n Plastid_Gblocks_part.bs300 &
+nohup raxmlHPC -f a -x 12345 -p12345 -# 300 -m GTRGAMMA -q Plastid_partitions_Gblocks.txt -s Australes_GBlocks_mask_11jan2018.phy -n Plastid_Gblocks_part.bs300 &
 ```
 `RAxML` tal como está instalada en nuestro servidor no permite aplicar longitudes de ramas diferentes para más de 128 particiones. Pero el comando para hacerlo sería:
 
