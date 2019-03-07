@@ -1,5 +1,7 @@
 ## Análisis de máxima verosimilitud con RAxML
-By David Gernandt March 2019
+
+By David Gernandt and José Rubén Montes
+Ver. Marzo 2019
 
 **Introducción**
 
